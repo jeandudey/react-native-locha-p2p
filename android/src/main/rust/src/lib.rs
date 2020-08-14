@@ -5,7 +5,7 @@ use jni::JNIEnv;
 pub mod core;
 
 #[no_mangle]
-pub extern "system" fn Java_com_reactnativelocha_LochaP2PModule_hello(
+pub extern "system" fn Java_io_locha_react_p2p_LochaP2PModule_hello(
     env: JNIEnv,
     _class: JClass,
     input: JString,

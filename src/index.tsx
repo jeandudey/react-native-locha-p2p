@@ -1,9 +1,9 @@
 import { NativeModules } from 'react-native';
 
-type LochaP2pType = {
-  multiply(a: number, b: number): Promise<number>;
+type LochaP2PType = {
+  hello(input: string): string;
 };
 
-const { LochaP2p } = NativeModules;
+const { LochaP2P } = NativeModules;
 
-export default LochaP2p as LochaP2pType;
+export default LochaP2P as LochaP2PType;
