@@ -1,0 +1,12 @@
+[package]
+name = "react-native-locha-p2p"
+version = "0.1.0"
+authors = ["Locha Mesh Developers <contact@locha.io>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+jni = "0.17"
+libp2p = "0.23" 
